@@ -1,0 +1,42 @@
+#searchbar{
+    position: relative;
+    width:60%;
+    height: 45px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    /* z-index: 70; */
+}
+
+#search{
+    position: absolute;
+    left: 1%;
+    top: 20%;
+    /* border: 1px solid red; */
+    font-size: 25px;
+}
+
+#clear{
+    font-size: 30px;
+    margin-left: 29px;
+}
+
+#clear:hover{
+    cursor: pointer;
+}
+
+#text{
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#input-search{
+    padding-left: 55px;
+}
+
+input::placeholder{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    /* color: rgb(0, 0, 0); */
+}

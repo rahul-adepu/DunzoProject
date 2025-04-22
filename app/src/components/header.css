@@ -1,0 +1,38 @@
+.shopping-card {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+    
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.shopping-card div {
+    cursor: pointer;
+}
+
+.shopping-card h5 {
+    margin: 0;
+}
+
+.cartt {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+/* Optional: Add a transition effect for a smoother user experience */
+.shopping-card div {
+    transition: color 0.3s;
+}
+
+.shopping-card div:hover {
+    color: #ffd700;
+    /* Change to your desired hover color */
+}

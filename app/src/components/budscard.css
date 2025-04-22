@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+/* Customize styles for the Header component */
+.Header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize styles for the Cart and Product sections */
+#a2,
+.a3 {
+    padding: 20px;
+}
+
+/* Customize styles for the CartList component */
+#a2 {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize styles for the ProductList component */
+.a3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Optional: Add a transition effect for smoother visibility changes */
+
+

@@ -1,0 +1,58 @@
+/* #maincart{
+    width: 60%;
+    margin: auto;
+    border: 1px soild red;
+    background-color: black;
+}
+
+.total{
+    margin-top: 50px;
+    margin-left: 35px;
+} */
+
+#maincart {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sizing {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.total {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Add your own styles for the 'Add Address' button if needed */
+/* .btnn {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+} */

@@ -1,0 +1,131 @@
+#content {
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    /* Relative positioning for aligning 'Read More' */
+}
+
+#content p {
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.01px;
+    color: rgb(129, 131, 134);
+    margin-top: 15px;
+    overflow: hidden;
+    /* Ensures overflow content is hidden */
+    display: -webkit-box;
+    /* Enables truncation */
+    -webkit-line-clamp: 0;
+    /* Default: overwritten via media queries */
+    -webkit-box-orient: vertical;
+    transition: all 0.3s ease;
+    /* Smooth expand/collapse */
+}
+
+#content p.expanded {
+    -webkit-line-clamp: unset;
+    /* Show full content */
+    overflow: visible;
+}
+
+#content h2 {
+    margin-top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#content h6 {
+    font-size: 12.5px;
+    color: rgb(129, 131, 134);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#content .read-more {
+    position: absolute;
+    bottom: -20px;
+    /* Adjusted alignment below the last visible line */
+    right: 0;
+    color: rgb(129, 131, 134);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Hide 'Read More' on large screens */
+@media screen and (min-width: 1024px) {
+    #content p {
+        -webkit-line-clamp: unset;
+        /* Show full content */
+        overflow: visible;
+    }
+
+    #content .read-more {
+        display: none;
+        /* Hide 'Read More' */
+    }
+}
+
+/* Medium screens: Show 3 lines */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    #content p {
+        -webkit-line-clamp: 3;
+    }
+
+    #content .read-more {
+        display: block;
+    }
+}
+
+/* Small screens: Show 2 lines */
+@media screen and (max-width: 767px) {
+    #content p {
+        -webkit-line-clamp: 2;
+    }
+
+    #content .read-more {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* #content{
+    width: 59.5%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#content p{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.01px;
+    color: rgb(129, 131, 134);
+    margin-top: 15px;
+}
+
+#content h2{
+    margin-top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#content h6{
+    font-size: 12.5px;
+    font-size: 15px;
+    color: rgb(129, 131, 134) ;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+span{
+    margin-right:5px ;
+}
+span1{
+    margin-left: 5px;
+}
+
+span:hover{
+    cursor: pointer;
+} */

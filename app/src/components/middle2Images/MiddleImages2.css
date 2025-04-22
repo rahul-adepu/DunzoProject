@@ -1,0 +1,36 @@
+#main_div{
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    margin-top: 35px;
+}
+
+.inner_div{
+    width: 150px;
+    height: 120px;
+    /* borde/r: 1px solid green; */
+    margin-right: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inner_div img{
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.inner_div h6{
+    margin-left: 14px;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+        
+}
+
+@media (max-width: 768px){
+    .inner_div{
+        width: 250px;
+        /* justify-content: space-around; */
+        /* border: none; */
+    }
+}

@@ -1,0 +1,34 @@
+#second-line {
+    width: 100%;
+    margin-top:72px;
+    background-color: rgb(44, 44, 79);
+}
+
+#inner-second-line {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+#inner-second-line p,
+#inner-second-line h6 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo1 {
+    width: 30px;
+    margin-right: 15px;
+}
+
+#color-change {
+    color: rgb(78, 202, 78);
+}
+
+#color-change:hover {
+    cursor: pointer;
+}

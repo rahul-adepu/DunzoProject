@@ -1,0 +1,97 @@
+/* Container Styling */
+#middle_images {
+    width: 70%;
+    /* border: 1px solid rgb(7, 7, 7); */
+    /* Consistent width with Top Picks */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Similar spacing as Top Picks */
+}
+
+/* Card Styling */
+.image-card {
+    width: 17.3rem;
+    height:17.3rem;
+    /* Matching Top Picks card width */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+/* Image Styling */
+#middle_images img {
+    border-radius: 8px;
+    width: 100%;
+    
+    /* width: calc(50% - 15px); */
+    height: 100%;
+    /* Maintains aspect ratio */
+    cursor: pointer;
+}
+
+/* Responsive Design */
+/* For medium-sized devices */
+@media (max-width: 1024px) {
+    #middle_images {
+        width: 90%;
+        border: 1px solid rgb(235, 103, 103);
+        /* Adjusted container width to match Top Picks on medium screens */
+        gap: 15px;
+    }
+
+    .image-card {
+        width: calc(50% - 15px);
+        /* Two cards per row on medium screens, consistent with Top Picks */
+    }
+}
+
+/* For smaller devices */
+@media (max-width: 768px) {
+    #middle_images {
+        width: 70%;
+        /* Ensures proper alignment like Top Picks */
+        gap: 40px;
+        /* justify-content: space-around; */
+        padding: 0;
+        /* Removed extra padding at start for alignment */
+    }
+
+    .image-card {
+        width: 100%;
+        margin: auto;
+        /* Single card per row, similar to Top Picks */
+    }
+
+    #middle_images img {
+        margin: 10 0;
+        /* Centered images to avoid alignment issues */
+    }
+}
+
+
+
+/* #middle_images{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#middle_images img{
+    border-radius: 8px;
+    width: 100%;
+}
+
+#middle_images img:hover{
+    cursor: pointer;
+} */

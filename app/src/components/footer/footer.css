@@ -1,0 +1,196 @@
+/* Footer container styles */
+#footer {
+    width: 100%;
+    background-color: rgb(61, 35, 61);
+    padding: 20px 0;
+}
+
+/* Inner footer styles */
+#inner_footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#inner_footer h6 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 20px;
+}
+
+#inner_footer p {
+    color: rgb(204, 182, 182);
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Divider line */
+hr {
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+/* Footer content layout */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Dunzo and bike image styles */
+#dunzo,
+#bike {
+    width: 100px;
+}
+
+#bike {
+    width: 250px;
+}
+
+/* Table container and table styles */
+#table-container {
+    flex: 1;
+    margin: 0 20px;
+}
+
+#footer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.table-data {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.table-data:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+/* Remove underline between rows */
+#footer-table tr:not(:last-child) {
+    border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #inner_footer {
+        width: 90%;
+    }
+
+    #dunzo,
+    #bike {
+        width: 60px;
+    }
+
+    #bike {
+        width: 180px;
+    }
+
+    #footer-table {
+        font-size: 14px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #table-container {
+        margin: 20px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #footer{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(61, 35, 61);
+}
+
+#sample1{
+    display: flex;
+}
+
+#inner_footer{
+    width: 61%;
+    height: 500px;
+    margin: auto;
+}
+
+#inner_footer h6{
+    padding-top: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#inner_footer p{
+    color: rgb(204, 182, 182);
+    margin-bottom:60px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.9px;
+}
+hr{
+    color: white;
+}
+
+#dunzo{
+    float: left;
+}
+
+#bike{
+    float: right;
+}
+
+#dunzo{
+    width: 80px;
+    margin-right: 100px;
+}
+
+#bike{
+    width: 250px;
+}
+
+#table{
+    margin-top: 50px;
+}
+
+.table_data{
+    color: white;
+}
+
+
+ */
