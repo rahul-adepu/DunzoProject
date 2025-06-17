@@ -45,7 +45,7 @@
 #middle_images1 {
     width: 70%;
     height: auto;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
