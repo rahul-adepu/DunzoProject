@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use("/", storeRoutes);
 app.use("/products", productRoutes);
 
-const PORT = 8001;
+const PORT = 8080;
 
 app.listen(PORT, async () => {
   await connectDB();
